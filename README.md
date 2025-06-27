@@ -33,3 +33,8 @@ Esto compilará el proyecto y ejecutará todas las pruebas automatizadas.
 
 - Si tienes problemas de SSL, puedes agregar la línea `* configure ssl = true` en el `Background` de tu archivo `.feature`.
 - Los reportes de ejecución se generarán en la carpeta `karate-reports/`.
+
+---
+## Notas del desarrollador
+Se hicieron las pruebas ejecutando la aplicación de forma local donde se uso la url http://localhost:8080 en lugar de http://bp-se-test-cabcd9b246a5.herokuapp.com.
+Sin embargo se envia el archivo con la URL http://bp-se-test-cabcd9b246a5.herokuapp.com
